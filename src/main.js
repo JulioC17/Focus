@@ -1,3 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+
+import { pantallaPrincipal }  from '../pantallaInicial/pantallainicial.js'
+
+pantallaPrincipal()
 
 

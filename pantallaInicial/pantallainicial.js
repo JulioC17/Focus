@@ -1,10 +1,16 @@
-const bigContainer = document.createElement('div')
-bigContainer.classList.add('container-fluid', 'bg-light')
 
-const mainContainer = document.createElement('div')
-mainContainer.classList.add('text-dark')
+const pantallaPrincipal = () => {
 
-const mainTittle = document.createElement('h1')
-mainTittle.textContent = FOCUS
-mainTittle.classList.add('text-dark', 'fs2')
+     document.querySelector('body').innerHTML = `
+    
+        <div>
+            <div>
+                <h1 >FOCUS</h1>
+                <h3>Todo lo que importa en un solo lugar...</h3>
+            </div>
+        </div>
+    `
+    console.log('hola')
+}
 
+export { pantallaPrincipal } 
